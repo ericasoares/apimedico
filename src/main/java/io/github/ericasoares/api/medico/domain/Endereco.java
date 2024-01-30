@@ -6,8 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-//@Embeddable  // se quiser add esses campos na tabela Medico
-
 @Table(name = "endereco")
 @Entity(name = "endereco")
 @NoArgsConstructor

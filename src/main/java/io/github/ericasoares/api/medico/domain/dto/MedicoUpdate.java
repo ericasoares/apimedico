@@ -9,5 +9,4 @@ public record MedicoUpdate(
     String telefone,
     EnderecoDto enderecoDto
 ) {
-
 }

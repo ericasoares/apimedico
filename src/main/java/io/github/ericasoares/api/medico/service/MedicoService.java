@@ -52,15 +52,4 @@ public class MedicoService {
         return repository.findAll(paginacao).map(MedicoOutBound::new);
     }
 
-//    @Transactional
-//    @DeleteMapping
-//    public ResponseEntity<String> deletar(Long id) {
-//        try {
-//            repository.deleteById(id);
-//            return ResponseEntity.ok("Medico id: "+id +" deletado com sucesso!");
-//        } catch (Exception e) {
-//            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Erro ao deletar medico: " + e.getMessage());
-//        }
-//    }
-
 }

@@ -53,14 +53,4 @@ public class MedicoController {
         return service.listarTodos(paginacao);
     }
 
-//    @DeleteMapping("/{id}")
-//    public ResponseEntity<String> deletar(@PathVariable Long id){
-//        ResponseEntity<String> responseEntity = service.deletar(id);
-//        if (responseEntity.getStatusCode() == HttpStatus.OK) {
-//            return ResponseEntity.ok(responseEntity.getBody());
-//        } else {
-//            return ResponseEntity.status(responseEntity.getStatusCode()).body(responseEntity.getBody());
-//        }
-//    }
-
 }
