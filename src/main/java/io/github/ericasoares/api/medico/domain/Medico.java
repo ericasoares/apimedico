@@ -1,8 +1,8 @@
 package io.github.ericasoares.api.medico.domain;
 
 import io.github.ericasoares.api.medico.domain.dto.MedicoDto;
-import io.github.ericasoares.api.medico.enums.Especialidade;
 import io.github.ericasoares.api.medico.domain.dto.MedicoUpdate;
+import io.github.ericasoares.api.medico.enums.Especialidade;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

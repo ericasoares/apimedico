@@ -1,7 +1,7 @@
 package io.github.ericasoares.api.medico.domain.dto;
 
-import io.github.ericasoares.api.medico.enums.Especialidade;
 import io.github.ericasoares.api.medico.domain.Medico;
+import io.github.ericasoares.api.medico.enums.Especialidade;
 
 public record MedicoOutBound(
     Long id,
